@@ -10,6 +10,7 @@ import React from "react";
 
 export const AuthenticatedApp = () => {
   const { logout, user } = useAuth();
+  // todo
   return (
     <Container>
       <Header between={true}>
